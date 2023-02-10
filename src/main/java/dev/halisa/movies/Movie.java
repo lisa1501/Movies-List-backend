@@ -1,6 +1,5 @@
 package dev.halisa.movies;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -27,6 +26,5 @@ public class Movie {
     private List<String> backdrops;
     @DocumentReference
     private List<Review> reviewIds;
-
 
 }
